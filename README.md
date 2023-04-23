@@ -24,3 +24,10 @@ kubectl delete -f . -n test
 ```
 http://localhost:30000
 ```
+
+## change version
+
+```bash
+docker pull php:7.4.33-fpm-alpine3.15
+docker pull nginx:1.22.0
+```
